@@ -120,7 +120,23 @@
 
 
 
+### Manager 속성
 
+---
+
+- 모든 모델은 반스시 Manager 속성을 지닌다. 
+- 모델을 정의할 때 지정하지 않으면 Manager속성의 디폴트 이름은 `objects` 이다. 매니저 속성은 모델 클래스를 통해서만 접근할 수 있고, 모델 객체를 통해서는 접근할 수 없다.
+- Manager 속성은 models.Manager 타입으로 정의된다. Manager 클래스를 통해 데이터베이스 쿼리가 이루어 진다.
+- 즉, 테이블 레벨의 동작은(레코드 레벨 nono) Manager 클래스의 메소드를 통해 이루어진다.
+
+```python
+Movie.objects.all()
+/// Movie -> 모델 객체 x, 모델 클래스 o
+/// objects -> Manager 속성 이름
+/// all() -> Manager 클래스 메소드
+```
+
+- 모델 클래스에서 Manager 속성을 여러 개 정의할 수 있다.
 
 
 
