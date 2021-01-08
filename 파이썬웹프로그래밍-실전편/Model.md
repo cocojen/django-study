@@ -75,7 +75,7 @@
 
 : 모델 객체를 리스트로 출력할 때(DB에서 가져올 때) 정렬할 기준 필드명을 지정한다. 지정한 필드명을 기준으로 디폴트 오름차순이고, `-` 를 붙이면 내림차순이다. 
 
-![ordering](Model.assets/ordering.jpg)
+![ordering 예시](README.assets/ordering.jpg)
 
  		첫 부분이 ordering 적용 전(저장 순서대로 출력), 다음 부분이 ordering 적용 후(title순서로 출력)이다
 
