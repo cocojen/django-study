@@ -10,12 +10,15 @@
 
 - 책 
 
-  - [Two Scoops of Django 3.x: Best Practices for the Django Web Framework]
-
-    > https://www.feldroy.com/products/two-scoops-of-django-3-x
-
+  
+- 파이썬 코딩의 기술(개정2판)
+  
+- [Two Scoops of Django 3.x: Best Practices for the Django Web Framework]
+  
+  > https://www.feldroy.com/products/two-scoops-of-django-3-x
+  
   - [파이썬 웹프로그래밍 실전편]
-
+  
     > https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=86938449
 
 ---
