@@ -35,3 +35,6 @@
 
     > https://www.udemy.com/course/django-python-advanced/
 
+
+
+- 공부계획
